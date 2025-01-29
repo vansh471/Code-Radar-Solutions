@@ -1,9 +1,12 @@
 #include <stdio.h>
-int main()
-{
-    float f1,f2;
 
+int main() {
+    char ch;
 
+    printf("enter a character:");
+    scanf("%c",&ch);
+
+    printf("ASCII value of %c is: %d\n",ch,ch)
 
     return 0;
 }
